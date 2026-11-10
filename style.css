@@ -1,0 +1,69 @@
+﻿body {
+    margin: 0;
+    background-color: #1c1412;
+    color: #ded3c3;
+    font-family: Georgia, serif;
+    line-height: 1.8;
+}
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+.introduction {
+    padding: 50px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 28px;
+}
+h1 span, h2, .surtitre, .symbole, .objectif strong {
+    color: #d5a45b;
+}
+.symbole {
+    font-size: 32px;
+}
+.sous-titre, .pensee {
+    color: #bcafa1;
+}
+.bouton {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #38251b;
+    color: #f5e2bf;
+    border: 1px solid #b38b50;
+    text-decoration: none;
+}
+.bouton:hover, .bouton:focus {
+    background-color: #573821;
+}
+.scene {
+    padding: 25px;
+    background-color: #191615;
+    border: 1px solid #514034;
+}
+blockquote {
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 2px solid #b38b50;
+    color: #e2bd86;
+    font-style: italic;
+}
+.pensee {
+    font-style: italic;
+}
+.objectif {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #514034;
+}
+footer {
+    padding: 25px 0;
+    color: #ab9d91;
+    font-size: 12px;
+    text-align: center;
+}
