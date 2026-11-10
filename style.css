@@ -41,6 +41,11 @@ h1 span, h2, .surtitre, .symbole, .objectif strong {
 .bouton:hover, .bouton:focus {
     background-color: #573821;
 }
+/* Espacement des choix pour les prochaines scenes */
+.choix .bouton {
+    display: block;
+    margin-top: 15px;
+}
 .scene {
     padding: 25px;
     background-color: #191615;
